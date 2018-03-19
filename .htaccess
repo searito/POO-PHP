@@ -1,0 +1,22 @@
+<Files .htaccess>
+Order Allow,Deny
+Deny From All
+</Files>
+
+Options All -Indexes
+
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^Clase-001-Clases-y-Objetos/?$ contenido/lesson001_clases_y_objetos.php [L]
+RewriteRule ^Clase-002-Atributos-y-Metodos/?$ contenido/lesson002_atributos_y_metodos.php [L]
+RewriteRule ^Clase-003-Constructores-y-Destructores/?$ contenido/lesson003_constructores_y_destructores.php [L]
+RewriteRule ^Clase-004-Modificadores-de-Acceso/?$ contenido/lesson004_modificadores-de-acceso.php [L]
+RewriteRule ^Clase-005-Herencia/?$ contenido/lesson005_herencia.php [L]
+RewriteRule ^Clase-006-Metodos-y-Atributos-Estaticos/?$ contenido/lesson006_metodos_y_atributos_estaticos.php [L]
+RewriteRule ^Clase-007-Interfaces-de-Objetos/?$ contenido/lesson007_interfaces_de_objetos.php [L]
+RewriteRule ^Clase-008-Clases-y-Metodos-Abstractos/?$ contenido/lesson008_clases_y_metodos_abstractos.php [L]
+RewriteRule ^Clase-009-Autoload/?$ contenido/lesson009_autoload.php [L]
+RewriteRule ^Clase-010-Uso-de-Traits/?$ contenido/lesson010_traits.php [L]
+RewriteRule ^Clase-011-Uso-de-Namespaces/?$ contenido/lesson011_namespaces.php [L]
+#RewriteRule ^Login/?$ plantillas/login.php [L]
+#RewriteRule ^([a-z0-9/]+)$ index.php?view=$1
